@@ -55,6 +55,16 @@
     color: black;
     font-size: x-large;
   }
+  .bio-img {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #bio {
+    height: 100vh;
+  }
 }
 
 #navbar {
@@ -127,8 +137,6 @@ header {
 
 @media (min-width: 768px) {
   .gradient-custom-2 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
     border-top-right-radius: .3rem;
     border-bottom-right-radius: .3rem;
   }
@@ -140,7 +148,6 @@ header {
 }
 
 body {
-  overflow-x: hidden;
   font-family: 'raleway';
 }
 /*# sourceMappingURL=main.css.map */

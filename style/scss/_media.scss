@@ -7,4 +7,19 @@
         color: black;
         font-size: x-large;
    }
+
+
+   .bio-img
+   {
+      width:200px;
+      height:300px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+  
+   #bio
+   {
+      height: 100vh;
+   }
 }
