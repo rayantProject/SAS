@@ -147,6 +147,17 @@ header {
           box-shadow: none;
 }
 
+.scroller {
+  min-height: 100vh;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  scroll-padding: 40px;
+}
+
+.scroller div {
+  scroll-snap-align: start;
+}
+
 body {
   font-family: 'raleway';
 }
